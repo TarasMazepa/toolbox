@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPOS_FILE="$HOME/repositories.sh"
+REPOS_FILE="$HOME/repositories.txt"
 
 if [ ! -f "$REPOS_FILE" ]; then
     echo "Error: $REPOS_FILE does not exist."
